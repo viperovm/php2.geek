@@ -11,7 +11,7 @@ class DigitalGoods extends BaseGoods
         return $this->amount;
     }
 
-    public function setAmount($amount): void
+    public function setAmount($amount)
     {
         $this->amount = $amount;
     }
