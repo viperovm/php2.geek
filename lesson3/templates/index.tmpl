@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="../public/CSS/style.css" >
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="logo">
+            <a href="/"><span class="logo-d">D</span>Z</a>
+        </div>
+        {% include 'menu.tmpl' %}
+    </div>
+    <hr>
+</header>
+<div class="container">
+    <h3 class="m-t">{{ title }}</h3>
+    <div class="container">
+        <div class="galery">
+
+            {{ content }}
+
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <hr>
+    <div class="container">
+        <h4 style="text-align: center;">Slava &copy; 2020</h4>
+    </div>
+</footer>
+</body>
+</html>
+
