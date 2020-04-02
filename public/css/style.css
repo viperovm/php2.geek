@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700&display=swap&subset=cyrillic');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+h4 {
+    margin: 25px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.logo-d {
+    display: inline-block;
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg) translateY(-1px);
+    margin-right: -10px;
+}
+
+.main-nav {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+    /*border-left: 1px solid black;*/
+}
+
+.main-menu li:first-child {
+    border-left: none;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: black;
+    line-height: 86px;
+    display: block;
+}
+
+.main-nav li a:before {
+    display: inline;
+    content: "";
+    height: 40px;
+    width: 0;
+    border-left: 1px solid black;
+    margin-right: 10px;
+}
+
+.main-sub-menu {
+    display: none;
+}
+
+.main-sub-menu:hover {
+    display: block;
+}
+
+.main-sub-menu:hover li {
+    display: block;
+}
+
+.galery {
+    margin: 10px 50px;
+}
+
+.galery img {
+    transition: 1s;
+    padding: 15px;
+}
+
+.galery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.03);
+}
+
+.goods {
+    display: inline-block;
+    max-width: 190px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid dimgrey;
+}
+
+.goods img {
+    width:100%;
+    height:auto;
+}
+
+.m-t {
+    margin-top: 20px;
+}
